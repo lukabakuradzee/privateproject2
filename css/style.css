@@ -2,11 +2,12 @@
   margin: 0 auto;
   max-width: 1440px;
   width: 100%;
+  background-color: rgb(231, 229, 229);
   /* border: 2px solid red; */
 }
 
 /* SECTION 1 */
-.section1  {
+.section1 {
   margin: 0 auto;
   padding: 250px 0;
   height: 720px;
@@ -14,7 +15,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
 
 /* HEADER */
@@ -33,8 +33,6 @@ header {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-
-
 }
 
 .menu {
@@ -43,7 +41,7 @@ header {
 }
 
 ul li a {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -81,9 +79,8 @@ ul li a:hover {
   align-items: center;
 }
 
-
 .header_account a {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -120,7 +117,7 @@ ul li a:hover {
 }
 
 .section1_heading1 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -130,7 +127,7 @@ ul li a:hover {
 }
 
 .section1_heading2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -142,19 +139,18 @@ ul li a:hover {
 .section1_paragraph {
   text-align: center;
   font-size: 1.2rem;
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   font-weight: 400;
   letter-spacing: 0.5px;
-  line-height: 1.4  ;
+  line-height: 1.4;
   color: white;
   margin-bottom: 70px;
-
 }
 
 .button_getstarted {
   background-color: black;
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   border-style: none;
   border-radius: 2px;
@@ -166,16 +162,15 @@ ul li a:hover {
 }
 
 .button_getstarted:hover {
-  opacity: 0.8;
+  background-color: white;
+  color: black;
 }
-
 
 /* SECTION 2 */
 
 .section2 {
   margin: 0 auto;
-  background-color: rgb(231, 229, 229);
-  padding: 100px 5%; 
+  padding: 100px 5%;
   /* border: 2px solid red; */
   display: flex;
   gap: 20px;
@@ -184,34 +179,35 @@ ul li a:hover {
 .section2_card1 {
   width: 30%;
   height: 725px;
- background-image: url("../photos/ceremony-product-blueberries-1-756x1080.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+  background-image: url("../photos/ceremony-product-blueberries-1-756x1080.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 
 .section2_card2 {
   width: 30%;
   height: 725px;
- background-image: url("../photos/ceremony-product-clementine-756x1080.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+  background-image: url("../photos/ceremony-product-clementine-756x1080.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .coffee_origin {
   margin-top: 620px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   letter-spacing: 2px;
   text-align: center;
   margin-bottom: 13px;
-
 }
 
 .coffee_name {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   letter-spacing: 1px;
   text-align: center;
@@ -220,7 +216,7 @@ ul li a:hover {
 
 .coffee_price {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -230,7 +226,7 @@ ul li a:hover {
 }
 
 .new_arrivals {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   letter-spacing: 1px;
   margin-top: 250px;
   text-align: center;
@@ -267,4 +263,76 @@ ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 10px;
+}
+
+/* SECTION 3 */
+.section3 {
+  margin: 0 auto;
+  padding: 100px 5%;
+}
+
+.box_animation {
+  /* border: 2px solid red; */
+  height: 700px;
+  animation: coloranime 20s infinite;
+}
+
+@keyframes coloranime {
+  10% {
+    background-color: #abb8c3;
+  }
+
+  30% {
+    background-color: #f78da7;
+    
+  }
+
+   50% {
+    background-color: #7bdcb5;
+  }
+
+  60% {
+    background-color:  #ff6900;
+  }
+
+  70% {
+    background-color: #8ed1fc;
+  }
+
+  80% {
+    background-color: #0693e3;
+  }
+
+  90% {
+    background-color: #9b51e0;
+  }
+
+  100% {
+    background-color: #cf2e2e;
+  }
+
+}
+
+.section3_color_text {
+  font-size: 0.9rem;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+  padding-top: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section3_heading {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1.2px;
+}
+
+.section3_paragraph {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  letter-spacing: 0.8px;
+  margin-bottom: 50px;
 }
