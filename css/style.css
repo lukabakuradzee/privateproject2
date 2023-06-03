@@ -1130,5 +1130,6 @@ textarea {
   letter-spacing: 1px;
   display: block;
   margin-inline: auto;
+  cursor: pointer;
 }
 
