@@ -10,7 +10,7 @@
 .section1 {
   margin: 0 auto;
   padding: 250px 0;
-  height: 720px;
+  min-height: 720px;
   background-image: url("../photos/cof1.webp");
   background-position: center;
   background-size: cover;
@@ -38,6 +38,13 @@ header {
 .menu {
   display: flex;
   gap: 20px;
+}
+
+.burgmenu, 
+.xmark{
+  font-size: 1.8rem;
+  color: black;
+  display: none;
 }
 
 ul li a {
