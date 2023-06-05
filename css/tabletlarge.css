@@ -55,7 +55,11 @@
   .section2_card1, 
   .section2_card2 {
     width: 45%;
-    min-height: 645px;
+    height: 645px;
+  }
+
+  .coffee_origin {
+    margin-top: 33em;
   }
 
 
@@ -114,8 +118,12 @@
 
 .coffee_card_shop {
   width: 47%;
-  min-height: 645px;
+  height: 645px;
 
+}
+
+.coffee_card_heading {
+  margin-top: 33em;
 }
 
 /* SUBSCRIPTION PAGE */
@@ -171,11 +179,12 @@
     flex-direction: column;
     align-items: center;
     row-gap: 2em;
+    
   }
 
   .coldbrew_cover1 {
     width: 70%;
-    min-height: 550px;
+    height: 550px;
   }
 
   .section4_coldbrew {
@@ -195,7 +204,6 @@
 .section1_wholesale {
   margin: 10em auto;
 }
-
 
 
 .wholesale_paragraph {

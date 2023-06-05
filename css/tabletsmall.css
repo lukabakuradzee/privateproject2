@@ -1,0 +1,221 @@
+@media (max-width: 765px) {
+  /* SECTION 1 */
+  .section1 {
+    padding: 10em 0;
+    min-height: 375px;
+  }
+
+  .section1_heading_box {
+    width: 60%;
+  }
+
+  .section1_heading1 {
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+  }
+
+  .section1_heading2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+
+  .section1_paragraph {
+    margin-bottom: 3em;
+
+  }
+
+  /* SECTION 2 */
+
+ .section2_card1, 
+ .section2_card2 {
+  height: 460px;
+ }
+
+ .coffee_origin {
+  font-size: 0.8rem;
+  margin-top: 370px;
+ }
+
+ /* SECTION 3 */
+
+ .section3 {
+  padding: 3em 0;
+ }
+
+ .box_animation {
+  min-height: 400px;
+ }
+
+ /* SECTION 4 */
+.section4 {
+  padding: 3em 3%;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.section4_card1 {
+  width: 70%;
+  margin-inline: auto;
+}
+
+.section4_card2 {
+  width: 100%;
+  min-height: 725px;
+}
+
+.section4_heading {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.section4_paragraph {
+  font-size: 1rem;
+}
+
+
+
+.section4_card3 {
+  row-gap: 1.2em;
+}
+
+.section4_cards_box {
+  min-height: 350px;
+  width: 49%;
+}
+
+
+/* FOOTER */
+footer {
+  flex-wrap: wrap;
+  
+}
+
+.footer_div1 {
+  width: 30%;
+}
+ 
+.social_networks {
+  width: 30%;
+}
+
+/* SHOP PAGE */
+.section1_shop {
+  padding: 10em 3% 5em 3%;
+}
+
+.shop_all_heading {
+  font-size: 2rem;
+}
+
+.shop_coffee_box {
+  gap: 10em;
+}
+
+.section2_shop {
+  padding: 2em 3% 5em 3%;
+}
+
+ .coffee_card_shop_parent {
+  row-gap: 2em;
+ }
+
+.coffee_card_shop {
+  height: 460px;
+}
+
+.coffee_card_heading {
+  margin-top: 23em;
+}
+
+
+/* SUBSCRIPTION */
+ .section1_subscription {
+  min-height: 370px;
+ }
+
+ .section1_subs_heading {
+   font-size: 2rem;
+   margin-bottom: 20px;
+ }
+
+ .section1_subs_paragraph {
+  font-size: 1rem;
+ }
+
+ /* SECTION 2 SUB CARDS */
+   .coffee_card_shop10 {
+    height: 460px;
+}
+
+/* COLD BREW */
+.section2_coldbrew_heading {
+  font-size: 1.5rem;
+}
+
+.coldbrew_article {
+  width: 75%;
+  text-align: center;
+}
+
+/* WHOLESALE PAGE */
+.section1_wholesale {
+  margin: 7em auto;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 4em;
+}
+
+.section1_wholesale_heading {
+  width: 70%;
+}
+
+iframe {
+  width: 65%;
+}
+
+/* SECTION 2  */
+.section3_wholesale {
+  margin: 5em auto;
+}
+
+.section2_wholesale_heading {
+  text-align: center;
+}
+
+.section2_wholesale_box {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
+}
+
+.section2_wholesale_coffee {
+  margin: 2em 0 1em 0;
+  
+}
+
+.section2_wholesale_text {
+  width: 60%;
+}
+
+/* SECTION 3 */
+
+.section3_second {
+  flex-direction: column-reverse;
+  gap: 4em;
+}
+/* SECTION 4 */
+.section4_wholesale {
+  margin: 5em auto;
+  }
+
+  /* SECTION 5 */
+
+  .section5_wholesale {
+    margin: 5em auto;
+  }
+
+  
+
+
+
+}
