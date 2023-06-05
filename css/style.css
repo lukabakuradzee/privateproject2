@@ -494,6 +494,7 @@ footer {
   font-family: "Avenir", sans-serif;
   letter-spacing: 0.8px;
   margin-bottom: 20px;
+  /* border: 2px solid red; */
 }
 
 .footer_div1 a {
@@ -565,7 +566,7 @@ footer {
   gap: 200px;
 }
 
-.shop_categorys {
+.shop_categorys  {
   /* border: 2px solid red; */
   width: 50%;
   margin-inline: auto;
@@ -749,6 +750,7 @@ footer {
   padding: 1em 2.2em;
   border-style: none;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 .button_more_info {
@@ -821,6 +823,7 @@ footer {
   margin: 0 auto;
   padding: 200px 15%;
   background-color: white;
+  /* border: 2px solid red; */
 }
 
 .section2_coldbrew_heading {

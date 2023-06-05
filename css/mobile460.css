@@ -1,0 +1,211 @@
+@media (max-width: 460px) {
+  /* HOME  SECTION 1*/
+
+  .section1 {
+    padding: 8em 0 3em;
+  }
+
+  .section1_heading_box {
+    width: 80%;
+  }
+
+  .section1_heading1 {
+    margin-bottom: 0.5em;
+  }
+
+  .section1_heading2 {
+    margin-bottom: 0.5em;
+  }
+
+  .section1_paragraph {
+    margin-bottom: 2em;
+  }
+
+  /* SECTION 2 */
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section2_card1,
+  .section2_card2 {
+    width: 95%;
+  }
+
+  /* SECTION 3 */
+  .div_card3_info {
+    width: 100%;
+    padding-inline: 1em;
+  }
+
+  /* SECTION 4 */
+  .section4_card1 {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .section4_card2 {
+    min-height: 420px;
+  }
+
+  .section4_cards_box {
+    min-height: 220px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    row-gap: 3em;
+  }
+
+  .footer_div1 {
+    width: 45%;
+  }
+
+  .footer_div1 a {
+    display: block;
+    text-align: center;
+  }
+
+  .social_networks {
+    margin-inline: auto;
+    width: 50%;
+  }
+
+  .footer_box_heading {
+    text-align: center;
+  }
+
+  /* SHOP PAGE */
+
+  .shop_all_heading {
+    text-align: center;
+  }
+
+  .shop_coffee_box {
+    width: 100%;
+    gap: 100px;
+  }
+
+  .coffee_card_shop_parent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coffee_card_shop {
+    width: 95%;
+  }
+
+  /* SUBSCRIPTION PAGE */
+  .section1_subscription {
+    padding: 15em 0;
+    min-height: 370px;
+  }
+
+  .section1_text_box {
+    width: 90%;
+  }
+
+  .section1_subs_heading {
+    font-size: 1.5rem;
+  }
+
+  .section1_subs_paragraph {
+    text-align: center;
+  }
+
+  /* SECTION 2 */
+  .section2_subs {
+    padding: 80px 0;
+  }
+
+  .blend_set_box {
+    width: 90%;
+  }
+
+  .set_box_name {
+    font-size: 1.2rem;
+  }
+
+  .set_box_description {
+    font-size: 0.9rem;
+  }
+
+  .button_add_card {
+    padding: 0.8em 1.2em;
+  }
+
+  .coffee_card_shop10 {
+    width: 95%;
+  }
+
+  /* COLD BREW */
+  .section1_coldbrew {
+    min-height: 570px;
+    padding: 200px 0;
+  }
+
+  .coldbrew_cover1 {
+    width: 95%;
+  }
+
+  .coldbrew_article {
+    width: 90%;
+  }
+
+  .article_heading {
+    font-size: 1.2rem;
+  }
+
+  .articlel_paragraph {
+    font-size: 1rem;
+  }
+
+  /* WHOLESALE */
+  .section1_wholesale {
+    padding: 0 1%;
+  }
+
+  .section1_wholesale_heading {
+    width: 100%;
+  }
+  .wholesale_heading {
+    font-size: 1.5rem;
+  }
+
+  iframe {
+    width: 90%;
+    height: 380px;
+  }
+
+  /* SECTION 2 */
+  .section2_wholesale {
+    padding-inline: 1%;
+  }
+  .wholesale_photo_cover {
+    width: 90%;
+  }
+  .section2_wholesale_text {
+    width: 90%;
+  }
+
+  /* SECTION 6 */
+  .section6_wholesale {
+    width: 85%;
+  }
+
+  .sign_me_up {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .input_lines {
+    width: 100%;
+  }
+
+
+
+}
