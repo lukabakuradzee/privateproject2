@@ -5,6 +5,15 @@
     padding: 8em 0 3em;
   }
 
+  .menu {
+    width: 40%;
+  }
+
+ .section1_heading_box {
+  /* background: none; */
+  backdrop-filter: none;
+ }
+
   .section1_heading_box {
     width: 80%;
   }
@@ -33,6 +42,7 @@
   }
 
   /* SECTION 3 */
+  
   .div_card3_info {
     width: 100%;
     padding-inline: 1em;
@@ -98,7 +108,7 @@
 
   /* SUBSCRIPTION PAGE */
   .section1_subscription {
-    padding: 15em 0;
+    padding: 10em 0;
     min-height: 370px;
   }
 
