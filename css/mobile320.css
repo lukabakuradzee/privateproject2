@@ -1,0 +1,131 @@
+@media (max-width: 320px) {
+  .logo_text1 {
+    font-size: 1rem;
+    letter-spacing: 5px;
+  }
+
+  .logo_text2 {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+  }
+
+  .shopping {
+    padding: 0.5em;
+    font-size: 1rem;
+  }
+
+  .burgmenu,
+  .xmark {
+    font-size: 1.5rem;
+  }
+
+  .section1_heading_box {
+    width: 90%;
+  }
+
+  /* SECTION 2 */
+
+  .section2_card1, 
+ .section2_card2 {
+  height: 320px;
+ }
+
+ .coffee_origin {
+  margin-top: 17em;
+ }
+
+ 
+
+ /* SECTION 4 */
+ .section4 {
+  row-gap: 1.5em;
+ }
+
+.section4_paragraph {
+  font-size: 0.8rem;
+  margin-inline:inherit;
+}
+
+.section4_card2 {
+  min-height: 280px;
+}
+
+.section4_cards_box {
+  min-height: 130px;
+}
+
+/* FOOTER */
+.social_networks {
+  width: 65%;
+}
+
+
+
+/* SHOP PAGE */
+
+.coffee_card_shop {
+  height: 370px;
+}
+
+.coffee_card_heading {
+  margin-top: 17em;
+}
+
+/* SUBSCRIPTION */
+/* SECTION 2 */
+.section2_subs {
+  row-gap: 7em;
+}
+
+.coffee_card_shop10 {
+  height: 370px;
+}
+
+
+/* COLDBREW */
+.section1_coldbrew {
+  min-height: 370px;
+}
+
+.section2_coldbrew {
+  padding: 4em 3%;
+}
+.section2_coldbrew_heading {
+  font-size: 1.3rem;
+}
+
+.coldbrew_cover1 {
+  width: 90%;
+  height: 325px;
+}
+
+/* WHOLESALE */
+.section1_wholesale {
+  margin: 3em auto;
+}
+
+iframe {
+  height: 260px;
+}
+
+.wholesale_photo_cover {
+  height: 260px;
+}
+
+.section2_wholesale_coffee {
+  margin: 1em 0;
+}
+
+.section3_second {
+  gap: 2em;
+}
+
+/* SECTION 6 */
+.input_lines {
+  width: 90%;
+}
+
+
+}
+
+
