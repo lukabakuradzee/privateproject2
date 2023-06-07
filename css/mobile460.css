@@ -1,3 +1,9 @@
+/*
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 460px) {
   /* HOME  SECTION 1*/
 
@@ -11,7 +17,8 @@
 
  .section1_heading_box {
   /* background: none; */
-  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
  }
 
   .section1_heading_box {
@@ -32,8 +39,13 @@
 
   /* SECTION 2 */
   .section2 {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .section2_card1,
@@ -99,8 +111,13 @@
   }
 
   .coffee_card_shop_parent {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .coffee_card_shop {
@@ -210,7 +227,10 @@
   }
 
   .form {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .input_lines {

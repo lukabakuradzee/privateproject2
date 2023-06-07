@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 765px) {
   /* SECTION 1 */
   .section1 {
@@ -49,7 +56,10 @@
  /* SECTION 4 */
 .section4 {
   padding: 3em 3%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   /* border: 2px solid red; */
 }
 
@@ -86,7 +96,8 @@
 
 /* FOOTER */
 footer {
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   
 }
 
@@ -160,8 +171,13 @@ footer {
 /* WHOLESALE PAGE */
 .section1_wholesale {
   margin: 7em auto;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   row-gap: 4em;
 }
 
@@ -183,8 +199,13 @@ iframe {
 }
 
 .section2_wholesale_box {
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   row-gap: 1em;
 }
 
@@ -200,7 +221,10 @@ iframe {
 /* SECTION 3 */
 
 .section3_second {
-  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   gap: 4em;
 }
 /* SECTION 4 */

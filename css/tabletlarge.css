@@ -1,3 +1,9 @@
+/*
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1024px) {
   /* SECTION 1 */
   .section1 {
@@ -5,31 +11,33 @@
   }
 
   /* HEADER + NAVIGATION */
-  
 
   header {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
-    
   }
 
-  
- 
   .burgmenu {
     display: block;
-    
   }
 
   .header_account a {
     display: none;
   }
 
-
   .menu {
     width: 30%;
     background-color: black;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 0;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     position: fixed;
     top: 90px;
@@ -47,12 +55,15 @@
 
   /* SECTION 2 */
   .section2 {
-    padding:  70px 3%;
+    padding: 70px 3%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
-  .section2_card1, 
+  .section2_card1,
   .section2_card2 {
     width: 45%;
     height: 645px;
@@ -62,12 +73,11 @@
     margin-top: 33em;
   }
 
-
   .div_card3_info {
     width: 50%;
     margin-inline: auto;
   }
-  
+
   .new_arrivals {
     margin-top: 30px;
   }
@@ -84,11 +94,14 @@
   /* SECTION 4 */
   .section4 {
     padding: 30px 3%;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
-  .section4_card1, 
+  .section4_card1,
   .section4_card2 {
     width: 45%;
   }
@@ -110,61 +123,61 @@
     width: 20%;
   }
 
-
   /* SHOP PAGE */
   .section1_shop {
     padding: 120px 3% 60px 3%;
   }
 
-.coffee_card_shop {
-  width: 47%;
-  height: 645px;
+  .coffee_card_shop {
+    width: 47%;
+    height: 645px;
+  }
 
-}
+  .coffee_card_heading {
+    margin-top: 33em;
+  }
 
-.coffee_card_heading {
-  margin-top: 33em;
-}
+  /* SUBSCRIPTION PAGE */
 
-/* SUBSCRIPTION PAGE */
+  .section1_subscription {
+    min-height: 500px;
+  }
 
- .section1_subscription {
-  min-height: 500px;
- }
+  .section1_text_box {
+    width: 60%;
+    padding: 3em;
+    background-color: white;
+    margin-inline: auto;
+  }
 
- .section1_text_box {
-   width: 60%;
-   padding: 3em;
-   background-color: white;
-   margin-inline: auto;
+  .section1_subs_heading {
+    text-align: center;
+  }
 
- }
+  .section2_subs {
+    padding: 80px 15% 80px 15%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 3.5em;
+  }
 
- .section1_subs_heading {
-  text-align: center;
- }
+  .blend_set_box {
+    width: 70%;
+    margin-inline: auto;
+  }
 
- .section2_subs {
-  padding: 80px 15% 80px 15%;
-   flex-direction: column;
-   row-gap: 3.5em;
- }
-
- .blend_set_box {
-  width: 70%;
-  margin-inline: auto;
-
- }
-
- .blendset_box_buttons {
-  justify-content: left;
-  gap: 1em;
+  .blendset_box_buttons {
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    gap: 1em;
   }
 
   .coffee_card_shop10 {
     width: 47%;
   }
-
 
   /* COLDBREW PAGE  */
   .section2_coldbrew {
@@ -176,10 +189,14 @@
   }
 
   .section3_coldbrew {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     row-gap: 2em;
-    
   }
 
   .coldbrew_cover1 {
@@ -195,105 +212,99 @@
     width: 55%;
   }
 
- .article_heading {
-  font-size: 1.5rem;
-  text-align: center;
- }
+  .article_heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 
-/* WHOLESALE PAGE */
-.section1_wholesale {
-  margin: 10em auto;
-}
+  /* WHOLESALE PAGE */
+  .section1_wholesale {
+    margin: 10em auto;
+  }
 
+  .wholesale_paragraph {
+    font-size: 1rem;
+  }
 
+  .wholesale_heading {
+    font-size: 2rem;
+  }
 
-.wholesale_paragraph {
-  font-size: 1rem;
-}
+  .iframe {
+    width: 55%;
+    min-height: 400px;
+  }
 
-.wholesale_heading {
-  font-size: 2rem;
-}
+  /* SECTION 2 */
+  .section2_wholesale {
+    margin: 6em auto;
+  }
 
-.iframe {
-  width: 55%;
-  min-height: 400px;
-}
+  .section2_wholesale_heading {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
 
-/* SECTION 2 */
-.section2_wholesale {
-  margin: 6em auto;
-}
- 
-.section2_wholesale_heading{
-  font-size: 2rem;
-  margin-bottom: 1em;
-}
+  .wholesale_photo_cover {
+    width: 60%;
+    height: 440px;
+  }
 
-.wholesale_photo_cover {
-  width: 60%;
-  height: 440px;
-}
+  .section2_wholesale_coffee {
+    font-size: 1.5rem;
+    margin-top: 3em;
+  }
 
-.section2_wholesale_coffee {
-  font-size: 1.5rem;
-  margin-top: 3em;
-}
+  .wholesale_coffee_paragraph {
+    font-size: 1rem;
+  }
 
+  .section3_second {
+    gap: 8em;
+  }
 
+  /* SECTION 5 */
+  .section5_wholesale {
+    margin: 7em auto;
+  }
 
-.wholesale_coffee_paragraph {
-  font-size: 1rem;
-}
+  /* ARTICLE */
+  .article_wholesale {
+    margin: 0 auto 6em auto;
+    width: 90%;
+    text-align: center;
+  }
+  .article_quote {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 
-.section3_second {
-  gap: 8em;
-}
+  /* SECTION 6 */
+  .section6_wholesale {
+    width: 90%;
+    margin: 5em auto;
+  }
 
-/* SECTION 5 */
-.section5_wholesale {
-  margin: 7em auto;
-}
+  .sign_me_up {
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+  }
 
-/* ARTICLE */
-.article_wholesale {
-  margin: 0 auto 6em auto;
-  width: 90%;
-  text-align: center;
-}
-.article_quote {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
+  .section6_paragraph {
+    font-size: 1rem;
+  }
 
-/* SECTION 6 */
-.section6_wholesale {
-  width: 90%;
-  margin: 5em auto;
-}
+  .your_info_text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1.5em 0;
+  }
 
-.sign_me_up {
-  font-size: 2rem;
-  margin-bottom: 1.5em;
-}
+  .input_lines {
+    margin-bottom: 4em;
+  }
 
-.section6_paragraph {
-  font-size: 1rem;
-}
-
-.your_info_text {
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin: 1.5em 0;
-
-}
-
-.input_lines {
-  margin-bottom: 4em;
-}
-
-.label {
-  font-size: 1rem;
-}
-
+  .label {
+    font-size: 1rem;
+  }
 }
